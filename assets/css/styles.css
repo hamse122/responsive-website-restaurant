@@ -552,3 +552,40 @@ img{
     column-gap: 7rem;
   }
 }
+
+/*========== MENU FILTERS ==========*/
+.menu-filter.active {
+  background-color: var(--first-color-alt) !important;
+}
+
+#menu-search {
+  background-color: var(--container-color);
+  color: var(--text-color);
+}
+
+#menu-search:focus {
+  outline: 2px solid var(--first-color);
+  border-color: var(--first-color);
+}
+
+/*========== CART COUNT ==========*/
+#cart-count {
+  font-size: 0.75rem;
+}
+
+/*========== CONTACT FORM ==========*/
+.contact__form-container {
+  width: 100%;
+}
+
+#contact-form input,
+#contact-form textarea {
+  background-color: var(--container-color);
+  color: var(--text-color);
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: 2px solid var(--first-color);
+  border-color: var(--first-color);
+}
